@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - read and write fstab files
 Name:		php-pear-%{_pearname}
 Version:	2.0.2
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 File_Fstab is an easy-to-use package which can read & write UNIX fstab
